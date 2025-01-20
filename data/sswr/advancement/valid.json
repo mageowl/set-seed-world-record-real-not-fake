@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "coal",
+			"components": {
+				"minecraft:item_model": "sswr:checkmark"
+			}
+		},
+		"title": "Run validated!",
+		"description": "This run was confirmed to be made using only vanilla Minecraft."
+	},
+	"parent": "minecraft:story/root",
+	"criteria": {
+		"killed_dragon": {
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:ender_dragon"
+						}
+					}
+				]
+			},
+			"trigger": "minecraft:player_killed_entity"
+		}
+	}
+}

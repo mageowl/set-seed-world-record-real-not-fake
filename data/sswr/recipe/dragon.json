@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "redstone",
+	"pattern": ["###", "#O#", "###"],
+	"key": {
+		"#": "obsidian",
+		"O": "ender_eye"
+	},
+	"result": {
+		"id": "minecraft:ender_dragon_spawn_egg",
+		"components": {
+			"minecraft:item_model": "sswr:dragon",
+			"minecraft:item_name": "\"Ender Dragon\""
+		}
+	}
+}

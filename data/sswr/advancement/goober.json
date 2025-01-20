@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"id": "trident",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+		"title": "Whoso pulleth this sword from this stone, is rightwise king born of all England",
+		"description": "goober III"
+	},
+	"parent": "minecraft:adventure/root",
+	"criteria": {
+		"none": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": ["E E", "EEE", "EEE"],
+	"key": {
+		"E": "emerald_block"
+	},
+	"result": {
+		"id": "minecraft:iron_chestplate",
+		"components": {
+			"minecraft:item_model": "sswr:emerald_chestplate",
+			"minecraft:equippable": {
+				"slot": "chest",
+				"asset_id": "sswr:emerald"
+			},
+			"minecraft:attribute_modifiers": {
+				"modifiers": [
+					{
+						"type": "minecraft:armor",
+						"id": "sswr:emerald_chestplate",
+						"amount": 20,
+						"operation": "add_value",
+						"slot": "chest"
+					}
+				]
+			},
+			"minecraft:item_name": "\"Emerald Chestplate\""
+		}
+	}
+}

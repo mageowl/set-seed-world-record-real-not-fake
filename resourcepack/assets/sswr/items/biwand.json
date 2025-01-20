@@ -1,0 +1,24 @@
+{
+  "model": {
+    "type": "select",
+    "property": "display_context",
+    "cases": [
+      {
+        "when": [
+          "firstperson_lefthand",
+          "firstperson_righthand",
+          "thirdperson_lefthand",
+          "thirdperson_righthand"
+        ],
+        "model": {
+          "type": "model",
+          "model": "sswr:item/biwand_world"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "sswr:item/biwand"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "redstone",
+	"ingredients": ["magenta_dye", "purple_dye", "blue_dye"],
+	"result": {
+		"id": "minecraft:poisonous_potato",
+		"components": {
+			"minecraft:item_model": "sswr:bisexuality",
+			"minecraft:item_name": "\"Bisexuality\"",
+			"!minecraft:food": {},
+			"!minecraft:consumable": {}
+		}
+	}
+}

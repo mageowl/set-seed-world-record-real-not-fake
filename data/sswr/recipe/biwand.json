@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [" eB", " Be", "E  "],
+	"key": {
+		"e": "emerald",
+		"E": "emerald_block",
+		"B": "poisonous_potato"
+	},
+	"result": {
+		"id": "bow",
+		"components": {
+			"minecraft:item_model": "sswr:biwand",
+			"minecraft:item_name": "\"Biwand\"",
+			"minecraft:rarity": "rare",
+			"minecraft:enchantments": {
+				"levels": { "minecraft:power": 255 }
+			}
+		}
+	}
+}

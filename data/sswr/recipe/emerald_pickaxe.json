@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": ["EEE", " / ", " / "],
+	"key": {
+		"E": "emerald",
+		"/": "stick"
+	},
+	"result": {
+		"id": "netherite_pickaxe",
+		"components": {
+			"minecraft:item_model": "sswr:emerald_pickaxe",
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 500
+			},
+			"minecraft:item_name": "\"Emerald Pickaxe\""
+		}
+	}
+}
